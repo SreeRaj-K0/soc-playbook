@@ -20,4 +20,13 @@ index=o365 sourcetype="o365:azuread" Operation=SignInLogs
 | search UserPrincipalName="user@example.com"
 | stats count by Location, IPAddress, DeviceDetail
 
+## 🛠️ Response Actions
+If confirmed malicious:
 
+- Reset password.
+
+- Disable session tokens.
+
+Add IP to blocklist (via conditional access or firewall).
+
+Notify user and document actions.
