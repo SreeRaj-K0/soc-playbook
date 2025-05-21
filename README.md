@@ -19,6 +19,11 @@
 index=o365 sourcetype="o365:azuread" Operation=SignInLogs
 | search UserPrincipalName="user@example.com"
 | stats count by Location, IPAddress, DeviceDetail
+```
+
+
+
+
 
 ## 🛠️ Response Actions
 If confirmed malicious:
