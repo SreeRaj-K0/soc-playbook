@@ -1,4 +1,4 @@
-# 📘 Playbook 1: Suspicious Login from Impossible Travel Location
+# 📘 Playbook: Suspicious Login from Impossible Travel Location
 
 **Alert Source:** Azure AD Identity Protection / M365 Defender  
 **Detection Name:** "Risky Sign-In" / "Impossible Travel"
@@ -8,7 +8,7 @@
 ## 🔍 Triage Steps
 
 - Verify user identity via internal comms (/Teams/email).
-- Check if user is traveling (check HR travel logs if available).
+- Check if user is traveling.
 - Confirm location using IP geolocation.
 
 ---
